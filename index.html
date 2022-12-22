@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>P;Club</title>
+    <!-- Required meta class="nav-link" tags -->
+    <meta class="nav-link" charset="utf-8" />
+    <meta
+      class="nav-link"
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.css" />
+    <link rel="stylesheet" href="css/home.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.1.0/css/solid.css"
+      integrity="sha384-TbilV5Lbhlwdyc4RuIV/JhD8NR+BfMrvz4BL5QFa2we1hQu6wvREr3v6XSRfCTRp"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.1.0/css/regular.css"
+      integrity="sha384-avJt9MoJH2rB4PKRsJRHZv7yiFZn8LrnXuzvmZoD3fh1aL6aM6s0BBcnCvBe6XSD"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.1.0/css/brands.css"
+      integrity="sha384-7xAnn7Zm3QC1jFjVc1A6v/toepoG3JXboQYzbM0jrPzou9OFXm/fY6Z/XiIebl/k"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.1.0/css/fontawesome.css"
+      integrity="sha384-ozJwkrqb90Oa3ZNb+yKFW2lToAWYdTiF1vt8JiH5ptTGHTGcN7qdoR1F95e0kYyG"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <div class="container-fluid parallax" id="main">
+      <div class="overlay" id="mainOverlay">
+        <div class="container" id="navbar">
+          <navbar-component />
+        </div>
+        <div class="container">
+          <h1 class="display-3 text-white" style="padding-top: 1.5em">
+            THE <br />PROGRAMM;NG CLUB
+          </h1>
+          <hr class="bg-white" />
+          <h1 class="display-3" style="padding-bottom: 1em">
+            ALL WE NEED <br />IS COFFEE
+          </h1>
+          <p
+            class="text-white"
+            style="
+              font-family: 'Open Sans', sans-serif;
+              font-size: 1.25em;
+              padding-bottom: 5em;
+              font-weight: 800;
+            "
+          >
+            IIT INDORE
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="bg-dark" id="blogposts">
+      <div class="container">
+        <svg width="42" height="14">
+          <rect width="48" height="12" fill="white"></rect>
+        </svg>
+        <h1 class="display-3 text-white">From The Blog</h1>
+        <blog-component-modal
+          v-for="post in posts"
+          :post="post"
+          :key="post.guid"
+        ></blog-component-modal>
+        <div class="row" id="blog">
+          <blog-component v-for="post in posts" :post="post" :key="post.guid"></blog-component>
+        </div>
+        <div class="row d-flex justify-content-center">
+          <br />
+          <div class="col-md-3 mt-4 text-center">
+            <a
+              target="_blank"
+              href="https://medium.com/the-programming-club-iit-indore/"
+              class="btn btn-primary btn-lg cute-btn accent"
+              >See More</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid parallax" id="secondary">
+      <div class="overlay lighten" id="secondaryOverlay">
+        <div class="container">
+          <svg width="42" height="14">
+            <rect width="48" height="12" fill="rgb(25, 118, 210)"></rect>
+          </svg>
+          <h1 class="display-3 text-dark">Events</h1>
+          <event-component></event-component>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid parallax slack" id="secondary">
+      <div class="text-white" id="secondaryOverlay">
+        <div class="container">
+          <svg width="42" height="14">
+            <rect width="48" height="12" fill="white"></rect>
+          </svg>
+          <h1 class="display-3">Our Community</h1>
+          <div class="container slack-content" style="width: 100%">
+            <div
+              class="container"
+              style="width: 100%; margin-top: 1em; padding: 0"
+            >
+              The Programming Club aims to develop a positive programming
+              culture in the IITI community. We try our best to help students
+              explore all programming disciplines and choose what they like the
+              most. We organize workshops, provide mentorship, share resources,
+              and arrange alumni talks to aid their journey.
+            </div>
+            <div
+              class="container"
+              style="width: 100%; margin-top: 1.5em; padding: 0"
+            >
+              For students to gain experience by working on real-life projects,
+              we take on good projects and organise various events and
+              hackathons by collaborating with institutes, professors, clubs and
+              industries.
+            </div>
+            <div
+              class="container"
+              style="width: 100%; margin-top: 1.5em; padding: 0"
+            >
+              Most importantly, we stand by our motto <strong class="text-light font-italic">"To be the very best, like no one ever was" </strong> &nbsp by enabling students to
+              unlock their true potential and become their best selves.
+            </div>
+            <div
+              class=""
+              id=""
+              style="margin-top: 1.5em; padding: 0; text-align: center"
+            >
+              <a
+                href="https://discord.gg/Wv32v2k"
+                class="btn btn-primary btn-lg cute-btn"
+                role="button"
+                aria-pressed="true"
+              >
+                Join Us!
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="foot">
+      <footer-component />
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.min.js"></script>
+    <script src="vendor/vue/vue.js"></script>
+    <script src="js/events.js"></script>
+    <script type="text/javascript" src="js/blog.js"></script>
+    <script src="js/home.js"></script>
+    <script type="text/javascript" src="js/footer.js"></script>
+    <script type="text/javascript" src="js/navbar.js"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.js"></script>
+  </body>
+</html>
