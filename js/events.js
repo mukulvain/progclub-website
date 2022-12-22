@@ -4,7 +4,7 @@ Vue.component("event-component", {
       events: [
         {
           id: 0,
-          image: "/img/home/events/dbz.jpg",
+          image: "img/home/events/dbz.jpg",
           title: "DIVIDE BY ZERO 6.0",
           about:
             " Our flagship event, a short duration competitive programming contest.",
@@ -13,7 +13,7 @@ Vue.component("event-component", {
         },
         {
           id: 1,
-          image: "/img/home/events/hackathon.jpg",
+          image: "img/home/events/hackathon.jpg",
           title: "Hackathon",
           about:
             " A social coding event to build a new software under the to-be-announced broad themes. Each team can consist of a maximum of 4 people.",
@@ -21,7 +21,7 @@ Vue.component("event-component", {
         },
         {
           id: 2,
-          image: "/img/home/events/ctf.jpg",
+          image: "img/home/events/ctf.jpg",
           title: "Capture The Flag",
           about:
             "A Capture the Flag Competition held by Byte Bandits, IIT Indore’s academic CTF team. The team size for the CTF should be a maximum 4 people.",
@@ -29,7 +29,7 @@ Vue.component("event-component", {
         },
         {
           id: 3,
-          image: "/img/home/events/fool_you.png",
+          image: "img/home/events/fool_you.png",
           title: "Fool You!",
           about:
             "A unique programming contest, in which thinking for the solution might still be easier than understanding the problem !",
