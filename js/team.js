@@ -128,11 +128,12 @@ const heads = [
     id: 2,
     name: "Jaskaran Singh",
     description: "President",
-    img: "https://avatars0.githubusercontent.com/u/10851701",
+    img: "",
     division: "Competitive Programming",
     year: "Third Year",
-    linkGit: "https://github.com/Abhinav2812",
+    linkGit: "",
     linkLin: "",
+    linkCf: "",
   },
 ];
 

@@ -83,7 +83,7 @@
 }
 
 #main {
-  background-image: url("/img/home/main.jpg");
+  background-image: url(/img/home/main.jpg);
   height: 100%;
 }
 
