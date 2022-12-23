@@ -36,9 +36,9 @@ Vue.component("footer-component", {
     </div>
   </div>
 
-  `
+  `,
 });
 
-new Vue ({
+new Vue({
   el: "#foot",
 });

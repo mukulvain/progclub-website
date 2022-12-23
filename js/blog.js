@@ -1,6 +1,6 @@
 Vue.component("blog-component", {
-    props: ['post'],
-    template: `
+  props: ["post"],
+  template: `
     <div class="col-lg-4 d-flex align-items-stretch">
         <div class="card">
             <div class="mybeautifulclass">
@@ -20,12 +20,12 @@ Vue.component("blog-component", {
             </div>
         </div>
     </div>
-    `
+    `,
 });
 
 Vue.component("blog-component-modal", {
-    props: ['post'],
-    template: `
+  props: ["post"],
+  template: `
     <div
     class="modal fade"
     :id="post.guid"
@@ -52,6 +52,5 @@ Vue.component("blog-component-modal", {
         </div>
     </div>
 
-    `
+    `,
 });
-

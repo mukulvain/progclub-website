@@ -51,33 +51,33 @@ const members = [
   },
   {
     id: 6,
-    name: "",
-    division: "",
-    img: "img/team/",
-    year: "",
-    linkCf: "",
-    linkGit: "",
-    linkLin: "",
+    name: "Karri Trived",
+    division: "Competitive Programming",
+    img: "img/team/Karri Trived.jpeg",
+    year: "Third Year",
+    linkCf: "https://codeforces.com/profile/ka_tri",
+    linkGit: "https://github.com/K-Trived",
+    linkLin: "https://www.linkedin.com/in/trived-karri-018812214/",
   },
   {
     id: 7,
-    name: "",
-    division: "",
-    img: "img/team/",
-    year: "",
-    linkCf: "",
-    linkGit: "",
-    linkLin: "",
+    name: "Kushal Sahastrabuddhe",
+    division: "Cyber Security",
+    img: "img/team/Kushal Sahastrabuddhe.jpg",
+    year: "Third Year",
+    linkCf: "https://codeforces.com/profile/Moriarty2610",
+    linkGit: "https://github.com/Moriarty2610",
+    linkLin: "https://www.linkedin.com/in/kushal-sahastrabuddhe-9818a6229/",
   },
   {
     id: 8,
-    name: "",
-    division: "",
-    img: "img/team/",
-    year: "",
-    linkCf: "",
-    linkGit: "",
-    linkLin: "",
+    name: "Gaurav Jain",
+    division: "Cyber Security",
+    img: "img/team/Gaurav Jain.jpg",
+    year: "Third Year",
+    linkCf: "https://codeforces.com/profile/gjain369",
+    linkGit: "https://github.com/gjain-7 ",
+    linkLin: "https://www.linkedin.com/in/gjain7",
   },
   {
     id: 9,
@@ -109,7 +109,6 @@ const members = [
     linkGit: "",
     linkLin: "",
   },
-  
 ];
 
 const heads = [
@@ -128,12 +127,12 @@ const heads = [
     id: 2,
     name: "Jaskaran Singh",
     description: "President",
-    img: "",
+    img: "img/team/Jaskaran Singh.jpg",
     division: "Competitive Programming",
     year: "Third Year",
-    linkGit: "",
-    linkLin: "",
-    linkCf: "",
+    linkGit: "https://github.com/sjaskarans",
+    linkLin: "https://www.linkedin.com/in/jaskaran-singh-8b8450200/",
+    linkCf: "https://codeforces.com/profile/s_jaskaran_s",
   },
 ];
 
@@ -170,9 +169,9 @@ Vue.component("member-component", {
           class="d-flex align-items-center justify-content-center"
           style="flex: 1 1 auto; flex-direction: row"
         >
-          <a :href="member.linkCf"><img src="img/team/cf.png" class="d-flex justify-content-center" height="20" style="flex: 1 1 auto; padding: 0 0.2em;"></img></a>
-          <a :href="member.linkGit"><i class="fab fa-github d-flex justify-content-center align-items-center" style="flex: 1 1 auto;  padding: 0 0.2em;"></i> </a>
-          <a :href="member.linkLin"><i class="fab fa-linkedin d-flex justify-content-center align-items-center"  style="flex: 1 1 auto; padding: 0 0.2em;"></i> </a>
+          <a :href="member.linkCf" target="_blank"><img src="img/team/cf.png" class="d-flex justify-content-center" height="20" style="flex: 1 1 auto; padding: 0 0.2em;"></img></a>
+          <a :href="member.linkGit" target="_blank"><i class="fab fa-github d-flex justify-content-center align-items-center" style="flex: 1 1 auto;  padding: 0 0.2em;"></i> </a>
+          <a :href="member.linkLin" target="_blank"><i class="fab fa-linkedin d-flex justify-content-center align-items-center"  style="flex: 1 1 auto; padding: 0 0.2em;"></i> </a>
         </div>
       </div>
     </div>
@@ -220,9 +219,9 @@ Vue.component("head-component", {
           class="d-flex align-items-center justify-content-center"
           style="flex: 1 1 auto; flex-direction: row"
         >
-          <a :href="head.linkCf"><img src="img/team/cf.png" class="d-flex justify-content-center" height="20" style="flex: 1 1 auto; padding: 0 0.2em;"></img></a>
-          <a :href="head.linkGit"><i class="fab fa-github d-flex justify-content-center"  style="flex: 1 1 auto; padding: 0 0.2em;"></i> </a>
-          <a :href="head.linkLin"><i class="fab fa-linkedin d-flex justify-content-center"  style="flex: 1 1 auto; padding: 0 0.2em;"></i> </a>
+          <a :href="head.linkCf" target="_blank"><img src="img/team/cf.png" class="d-flex justify-content-center" height="20" style="flex: 1 1 auto; padding: 0 0.2em;"></img></a>
+          <a :href="head.linkGit" target="_blank"><i class="fab fa-github d-flex justify-content-center"  style="flex: 1 1 auto; padding: 0 0.2em;"></i> </a>
+          <a :href="head.linkLin" target="_blank"><i class="fab fa-linkedin d-flex justify-content-center"  style="flex: 1 1 auto; padding: 0 0.2em;"></i> </a>
         </div>
       </div>
     </div>

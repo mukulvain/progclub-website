@@ -2,7 +2,7 @@ Vue.component("project-component", {
   data: function () {
     return {
       projects: {
-        "Ongoing / Completed":[
+        "Ongoing / Completed": [
           {
             id: "",
             image: "",
@@ -10,14 +10,31 @@ Vue.component("project-component", {
             content: "",
             github: "",
             domain: "",
-          }
+          },
+          {
+            id: "",
+            image: "",
+            title: "",
+            content: "",
+            github: "",
+            domain: "",
+          },
+          {
+            id: "",
+            image: "",
+            title: "",
+            content: "",
+            github: "",
+            domain: "",
+          },
         ],
         "IITISoC 2022": [
           {
             id: "",
             image: "img/project/android-studio.svg",
             title: "Mess QR System",
-            content: "This application is made for the accessibility of meals by the students and for the management of students' data by authorities. It provides facilities like QR Scanning, history, payments, reviews etc. ",
+            content:
+              "This application is made for the accessibility of meals by the students and for the management of students' data by authorities. It provides facilities like QR Scanning, history, payments, reviews etc. ",
             github: "https://github.com/E13ctron/IITISoC-22-App-5-Mess_QR",
             domain: "App Development",
           },
@@ -25,9 +42,27 @@ Vue.component("project-component", {
             id: "",
             image: "img/project/js.svg",
             title: "Game of Life",
-            content: "The Game of Life is played on an infinite two-dimensional rectangular grid of cells. Each cell can either be alive or dead. User can create various patterns that based on the simple rules of the game.",
-            github: "https://github.com/rashimotwani/IITISoC-22-Web-3-GameOfLife",
+            content:
+              "The Game of Life is played on an infinite two-dimensional rectangular grid of cells. Each cell can either be alive or dead. User can create various patterns that based on the simple rules of the game.",
+            github:
+              "https://github.com/rashimotwani/IITISoC-22-Web-3-GameOfLife",
             domain: "Web Development",
+          },
+          {
+            id: "",
+            image: "img/project/socketio.svg",
+            title: "Control-X",
+            content: "Control-X is responsive web application that hosts 3-4 games. Players can start a new game and invite others to join. This application also offers a leaderboard section, history, followers and many more things.",
+            github: "https://github.com/kr-2003/IITISOC_OnlineGamesWebsite",
+            domain: "Web Development",
+          },
+          {
+            id: "",
+            image: "img/project/react.svg",
+            title: "Alumni Portal",
+            content: "This application aims to provide an Alumni Portal for IIT Indore and where current students can connect with the Alumni. It provides a platform to maintain alumni data and update the same.",
+            github: "https://github.com/Rebel9829/IITISoC-22-Web-30-Alumni_Portal",
+            domain: "Full Stack Development",
           },
           {
             id: "",
@@ -52,7 +87,8 @@ Vue.component("project-component", {
             id: "",
             image: "img/project/node.svg",
             title: "ClockIn",
-            content: "ClockIn is an event schedular website made exclusively for the members of the IIT Indore Community. Using ClockIn the users can add events to their calendar, edit them, get reminders through emails all combined with different view modes.",
+            content:
+              "ClockIn is an event schedular website made exclusively for the members of the IIT Indore Community. Using ClockIn the users can add events to their calendar, edit them, get reminders through emails all combined with different view modes.",
             github: "https://github.com/rashimotwani/clockin",
             domain: "Full Stack Development",
           },
@@ -60,7 +96,8 @@ Vue.component("project-component", {
             id: "",
             image: "img/project/pwa.svg",
             title: "Infinity Remote",
-            content: "This application gives you a Chrome Extension and a Progressive Web App (PWA) allowing you to control Youtube on your Desktop Browser from the PWA in your Mobile.",
+            content:
+              "This application gives you a Chrome Extension and a Progressive Web App (PWA) allowing you to control Youtube on your Desktop Browser from the PWA in your Mobile.",
             github: "https://github.com/AshishRajIITI/Misc-6-Infinity-Remote",
             domain: "Chrome Extension + PWA",
           },
@@ -68,7 +105,8 @@ Vue.component("project-component", {
             id: "",
             image: "img/project/django.svg",
             title: "Covid Survivors",
-            content: "A portal where the retrieved data of the covid+ patients  is registered and made available to the needy in the future. It provides an open chat option for people seeking advice and assistance in the mental health of patients.",
+            content:
+              "A portal where the retrieved data of the covid+ patients  is registered and made available to the needy in the future. It provides an open chat option for people seeking advice and assistance in the mental health of patients.",
             github: "https://github.com/Bhavishya-tiwari/Web1_Covid-Survivors",
             domain: "Full Stack Development",
           },
@@ -289,7 +327,7 @@ Vue.component("project-component", {
             <p class="card-text mb-2 font-weight-bold">{{project.domain}}</p>
             <p class="card-text mb-2">{{project.content}}</p>
           </div>
-          <a :href="project.github"
+          <a :href="project.github" target="_blank"
             ><div class="card-footer font-weight-bold pt-2">
               <i class="fab fa-github pr-2 align-middle"></i>{{project.title}}
             </div></a

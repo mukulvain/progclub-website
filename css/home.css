@@ -105,7 +105,7 @@
   border-radius: 0.5em;
   margin-bottom: 1em;
   -webkit-box-shadow: 0.25em 0.25em 1.5em -0.15em rgba(0, 0, 0, 0.6);
-          box-shadow: 0.25em 0.25em 1.5em -0.15em rgba(0, 0, 0, 0.6);
+  box-shadow: 0.25em 0.25em 1.5em -0.15em rgba(0, 0, 0, 0.6);
   font-family: "Open Sans", sans-serif;
   font-size: 1.25em;
   -webkit-transition: -webkit-transform 0.15s cubic-bezier(0.25, 0.46, 0.45, 0.94);
@@ -116,7 +116,7 @@
 
 #blogposts .card:hover {
   -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 #blogposts .card .card-title {
@@ -149,13 +149,13 @@
   border-radius: 1.25em;
   min-height: 30em;
   -webkit-box-shadow: 0.25em 0.25em 1.5em -0.15em rgba(0, 0, 0, 0.6);
-          box-shadow: 0.25em 0.25em 1.5em -0.15em rgba(0, 0, 0, 0.6);
+  box-shadow: 0.25em 0.25em 1.5em -0.15em rgba(0, 0, 0, 0.6);
 }
 
 #secondary #carouselId img {
   min-height: 30em;
   -webkit-filter: brightness(0.4);
-          filter: brightness(0.4);
+  filter: brightness(0.4);
 }
 
 #secondary #carouselId .carousel-caption {
@@ -187,14 +187,15 @@
 .cute-btn {
   font-family: "Montserrat", sans-serif;
   -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border: none;
 }
 
 .slack {
   background: #8E2DE2 !important;
   background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2) !important;
-  background: linear-gradient(to right, #4A00E0, #8E2DE2) !important; }
+  background: linear-gradient(to right, #4A00E0, #8E2DE2) !important;
+}
 
 .accent {
   background-color: #1976d2;
@@ -222,15 +223,15 @@
   height: 4em;
 }
 
-.blog-content > figure > img {
+.blog-content>figure>img {
   width: 100%;
 }
 
-.modal-body > figure > img {
+.modal-body>figure>img {
   width: 100%;
 }
 
-.modal-body > figure > figure > img {
+.modal-body>figure>figure>img {
   width: 100%;
 }
 
@@ -239,9 +240,11 @@
     max-height: 10em;
     overflow: hidden;
   }
+
   .blog-content {
     font-size: 0.7em;
   }
+
   .cute-btn {
     padding-left: 3em;
     padding-right: 3em;
@@ -251,15 +254,18 @@
 @media only screen and (max-width: 600px) {
   .card:hover {
     -webkit-transform: scale(1) !important;
-            transform: scale(1) !important;
+    transform: scale(1) !important;
   }
+
   .display-3 {
     font-size: 4em;
   }
+
   .cute-btn {
     display: block;
     width: 100%;
     text-align: center;
   }
 }
+
 /*# sourceMappingURL=home.css.map */

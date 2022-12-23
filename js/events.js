@@ -24,7 +24,7 @@ Vue.component("event-component", {
           image: "img/home/events/ctf.jpg",
           title: "Capture The Flag",
           about:
-            "A Capture the Flag Competition held by Byte Bandits, IIT Indore’s academic CTF team. The team size for the CTF should be a maximum 4 people.",
+            "A Capture the Flag Competition held by Byte Bandits, IIT Indore's academic CTF team. The team size for the CTF should be a maximum 4 people.",
           cls: "carousel-item"
         },
         {
