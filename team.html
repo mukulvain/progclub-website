@@ -4,13 +4,23 @@
     <title>Team @ P;Club</title>
     <!-- Required meta class="nav-link" tags -->
     <meta class="nav-link" charset="utf-8" />
+    <meta name="author" content="Daemon Lab" />
     <meta
       class="nav-link"
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
+    <meta
+      name="description"
+      content="The Programming Club is a community of coding enthusiasts from IIT Indore"
+    />
+    <meta
+      name="keywords"
+      content="JavaScript, Python, Bash, Dart, Kotlin, Java, C, C++, CPP"
+    />
 
     <!-- Bootstrap CSS -->
+    <link rel="shortcut icon" type="image/svg" href="img/home/logo.svg">
     <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.css" />
     <link rel="stylesheet" href="css/team.css" />
     <link
@@ -39,7 +49,7 @@
 
   <body>
     <div id="navbar">
-        <navbar-component />
+      <navbar-component />
     </div>
 
     <div class="container" id="app">
@@ -52,7 +62,11 @@
         </div>
       </div>
       <div class="team row" id="members">
-        <member-component v-for="member in members" :member="member" :key="member.id" />
+        <member-component
+          v-for="member in members"
+          :member="member"
+          :key="member.id"
+        />
       </div>
     </div>
 

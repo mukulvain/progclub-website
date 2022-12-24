@@ -4,13 +4,23 @@
     <title>P;Club</title>
     <!-- Required meta class="nav-link" tags -->
     <meta class="nav-link" charset="utf-8" />
+    <meta name="author" content="Daemon Lab" />
     <meta
-      class="nav-link"
+    class="nav-link"
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
+    <meta
+      name="description"
+      content="The Programming Club is a community of coding enthusiasts from IIT Indore"
+    />
+    <meta
+      name="keywords"
+      content="JavaScript, Python, Bash, Dart, Kotlin, Java, C, C++, CPP"
+    />
 
     <!-- Bootstrap CSS -->
+    <link rel="shortcut icon" type="image/svg" href="img/home/logo.svg">
     <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.css" />
     <link rel="stylesheet" href="css/home.css" />
     <link
@@ -83,7 +93,11 @@
           :key="post.guid"
         ></blog-component-modal>
         <div class="row" id="blog">
-          <blog-component v-for="post in posts" :post="post" :key="post.guid"></blog-component>
+          <blog-component
+            v-for="post in posts"
+            :post="post"
+            :key="post.guid"
+          ></blog-component>
         </div>
         <div class="row d-flex justify-content-center">
           <br />
@@ -140,8 +154,12 @@
               class="container"
               style="width: 100%; margin-top: 1.5em; padding: 0"
             >
-              Most importantly, we stand by our motto <strong class="text-light font-italic">"To be the very best, like no one ever was" </strong> &nbsp by enabling students to
-              unlock their true potential and become their best selves.
+              Most importantly, we stand by our motto
+              <strong class="text-light font-italic"
+                >"To be the very best, like no one ever was"
+              </strong>
+              &nbsp by enabling students to unlock their true potential and
+              become their best selves.
             </div>
             <div
               class=""

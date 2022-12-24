@@ -1,41 +1,41 @@
 Vue.component("event-component", {
-  data: function() {
+  data: function () {
     return {
       events: [
         {
           id: 0,
           image: "img/home/events/DBZ.jpg",
-          title: "DIVIDE BY ZERO 6.0",
+          title: "DIVIDE BY ZERO 8.0",
           about:
-            " Our flagship event, a short duration competitive programming contest.",
+            "Our flagship event, a short duration programming contest held on Codeforces.",
           cls: "carousel-item active",
-          clas:"active"
+          clas: "active",
         },
         {
           id: 1,
-          image: "img/home/events/hackathon.jpg",
-          title: "Hackathon",
+          image: "img/home/events/coming_soon.jpg",
+          title: "Hackistica 2.0",
           about:
-            " A social coding event to build a new software under the to-be-announced broad themes. Each team can consist of a maximum of 4 people.",
-          cls: "carousel-item"
+            "A social coding event to build a new software under the to-be-announced broad themes. Each team can consist of a maximum of 4 people.",
+          cls: "carousel-item",
         },
         {
           id: 2,
-          image: "img/home/events/ctf.jpg",
+          image: "img/home/events/coming_soon.jpg",
           title: "Capture The Flag",
           about:
             "A Capture the Flag Competition held by Byte Bandits, IIT Indore's academic CTF team. The team size for the CTF should be a maximum 4 people.",
-          cls: "carousel-item"
+          cls: "carousel-item",
         },
         {
           id: 3,
-          image: "img/home/events/fool_you.png",
-          title: "Fool You!",
+          image: "img/home/events/coming_soon.jpg",
+          title: "Code Golf",
           about:
-            "A unique programming contest, in which thinking for the solution might still be easier than understanding the problem !",
-          cls: "carousel-item"
-        }
-      ]
+            "A unique programming contest, shorter the code, greater are the points",
+          cls: "carousel-item",
+        },
+      ],
     };
   },
   template: `
@@ -82,9 +82,9 @@ Vue.component("event-component", {
     </a>
   </div>
 
-  `
+  `,
 });
 
 new Vue({
-  el: "#secondary"
+  el: "#secondary",
 });
