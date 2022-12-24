@@ -2,6 +2,9 @@
   body {
     font-size: 10px;
   }
+  .motto{
+    font-size: 2.5em;
+  }
 }
 
 .navbar {
@@ -33,6 +36,12 @@
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
   letter-spacing: -3px;
+  line-height: 0.95em;
+}
+
+.motto{
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
   line-height: 0.95em;
 }
 
