@@ -4,7 +4,7 @@ Vue.component("event-component", {
       events: [
         {
           id: 0,
-          image: "img/home/events/dbz.jpg",
+          image: "img/home/events/DBZ.jpg",
           title: "DIVIDE BY ZERO 6.0",
           about:
             " Our flagship event, a short duration competitive programming contest.",

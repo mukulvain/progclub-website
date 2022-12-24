@@ -4,33 +4,54 @@ Vue.component("project-component", {
       projects: {
         "Ongoing / Completed": [
           {
-            id: "",
-            image: "",
-            title: "",
-            content: "",
-            github: "",
-            domain: "",
+            id: "33",
+            image: "img/project/django.svg",
+            title: "HoRC Elections",
+            content:
+              "This application was used to hold the HoRC Elections for all the hostels of IIT Indore, for different posts of the Hall of Residence.",
+            github: "https://github.com/DaemonLab/HORC-Elections",
+            domain: "Software Development",
           },
           {
-            id: "",
-            image: "",
-            title: "",
-            content: "",
-            github: "",
-            domain: "",
+            id: "34",
+            image: "img/project/next.svg",
+            title: "Ingenium",
+            content:
+              "This website was created for Ingenium, the Techfest of IIT Indore which was held in association with Fluxus this year.",
+            github: "https://github.com/DaemonLab/Techfest",
+            domain: "Web Development",
           },
           {
-            id: "",
-            image: "",
-            title: "",
-            content: "",
-            github: "",
-            domain: "",
+            id: "35",
+            image: "img/project/django.svg",
+            title: "Mess Website",
+            content:
+              "This application aims to create a platform for the Mess, Cafeteria and Allied Services. This will enable students to get regular updates, access Contact Info, Rules and Regulations",
+            github: "https://github.com/DaemonLab/Mess-Website",
+            domain: "Full Stack Development",
+          },
+          {
+            id: "36",
+            image: "img/project/flask.svg",
+            title: "Greed Control",
+            content:
+              "This application allows the user to host a game called Greed Control for all the players in the room who can join the game after authentication.",
+            github: "https://github.com/MihirK1212/greed-challenge-client",
+            domain: "Full Stack Development",
           },
         ],
         "IITISoC 2022": [
           {
-            id: "",
+            id: "27",
+            image: "img/project/socketio.svg",
+            title: "Control-X",
+            content:
+              "Control-X is responsive web application that hosts 3-4 games. Players can start a new game and invite others to join. This application also offers a leaderboard section, history, followers and many more things.",
+            github: "https://github.com/kr-2003/IITISOC_OnlineGamesWebsite",
+            domain: "Web Development",
+          },
+          {
+            id: "28",
             image: "img/project/android-studio.svg",
             title: "Mess QR System",
             content:
@@ -39,7 +60,7 @@ Vue.component("project-component", {
             domain: "App Development",
           },
           {
-            id: "",
+            id: "29",
             image: "img/project/js.svg",
             title: "Game of Life",
             content:
@@ -49,51 +70,37 @@ Vue.component("project-component", {
             domain: "Web Development",
           },
           {
-            id: "",
-            image: "img/project/socketio.svg",
-            title: "Control-X",
-            content: "Control-X is responsive web application that hosts 3-4 games. Players can start a new game and invite others to join. This application also offers a leaderboard section, history, followers and many more things.",
-            github: "https://github.com/kr-2003/IITISOC_OnlineGamesWebsite",
-            domain: "Web Development",
+            id: "30",
+            image: "img/project/flutter.svg",
+            title: "IIT/NIT Guidance Portal",
+            content:
+              "This app, for JEE entrance exam aspirants creates a medium of communication between IIT/NITians and upcoming JEE aspirants. It contains a channel of guides who can solve their doubts and motivate them towards their final goal.",
+            github: "https://github.com/PrabhakarAgrawal/Guidance_app",
+            domain: "App Development",
           },
           {
-            id: "",
+            id: "31",
             image: "img/project/react.svg",
             title: "Alumni Portal",
-            content: "This application aims to provide an Alumni Portal for IIT Indore and where current students can connect with the Alumni. It provides a platform to maintain alumni data and update the same.",
-            github: "https://github.com/Rebel9829/IITISoC-22-Web-30-Alumni_Portal",
+            content:
+              "This application aims to provide an Alumni Portal for IIT Indore and where current students can connect with the Alumni. It provides a platform to maintain alumni data and update the same.",
+            github:
+              "https://github.com/Rebel9829/IITISoC-22-Web-30-Alumni_Portal",
             domain: "Full Stack Development",
           },
           {
-            id: "",
-            image: "",
-            title: "",
-            content: "",
-            github: "",
-            domain: "",
+            id: "32",
+            image: "img/project/flask.svg",
+            title: "Perspective",
+            content:
+              "A website where students and other members of the IITI community could read and post their life experiences as blogs. Users can visit other's profiles, format text, add tags and comment on the blogs as well.",
+            github: "https://github.com/mansi-ch17/perspective",
+            domain: "Web Development",
           },
         ],
         "IITISoC 2021": [
           {
-            id: "",
-            image: "img/project/firebase.svg",
-            title: "YouWatch",
-            content:
-              "This web app is made for the entire IITI Community where webinars, workshops and event recordings and different videos can be stored. Users can create their channels, upload videos and watch them.",
-            github: "https://github.com/E13ctron/Web16_YoutubeClone",
-            domain: "Software Development",
-          },
-          {
-            id: "",
-            image: "img/project/node.svg",
-            title: "ClockIn",
-            content:
-              "ClockIn is an event schedular website made exclusively for the members of the IIT Indore Community. Using ClockIn the users can add events to their calendar, edit them, get reminders through emails all combined with different view modes.",
-            github: "https://github.com/rashimotwani/clockin",
-            domain: "Full Stack Development",
-          },
-          {
-            id: "",
+            id: "20",
             image: "img/project/pwa.svg",
             title: "Infinity Remote",
             content:
@@ -102,7 +109,44 @@ Vue.component("project-component", {
             domain: "Chrome Extension + PWA",
           },
           {
-            id: "",
+            id: "21",
+            image: "img/project/node.svg",
+            title: "ClockIn",
+            content:
+              "ClockIn is an event schedular website made exclusively for the members of the IIT Indore Community. Using ClockIn the users can add events to their calendar, edit them, get reminders through emails all combined with different view modes.",
+            github: "https://github.com/rashimotwani/clockin",
+            domain: "Full Stack Development",
+          },
+          {
+            id: "22",
+            image: "img/project/react.svg",
+            title: "Classroom IITI",
+            content:
+              "This application was made to replace the old drive system with which seniors used to share academic material with us, as their college IDs used to get deactivated after graduation. It takes inspiration from google drive structure.",
+            github: "https://github.com/Suman-Jaiswal/classroom",
+            domain: "Full Stack Development",
+          },
+          {
+            id: "23",
+            image: "img/project/firebase.svg",
+            title: "YouWatch",
+            content:
+              "This web app is made for the entire IITI Community where webinars, workshops and event recordings and different videos can be stored. Users can create their channels, upload videos and watch them.",
+            github: "https://github.com/E13ctron/Web16_YoutubeClone",
+            domain: "Software Development",
+          },
+          {
+            id: "24",
+            image: "img/project/react.svg",
+            title: "HotelX",
+            content:
+              "This project aims to develop a full-stack social website for a restaurant with modern UI, realtime order updates and payment integration.",
+            github:
+              "https://github.com/Kuldeep-Singh-28/web19_Restaurant-social-website",
+            domain: "Web Development",
+          },
+          {
+            id: "25",
             image: "img/project/django.svg",
             title: "Covid Survivors",
             content:
@@ -111,12 +155,14 @@ Vue.component("project-component", {
             domain: "Full Stack Development",
           },
           {
-            id: "",
-            image: "",
-            title: "",
-            content: "",
-            github: "",
-            domain: "",
+            id: "26",
+            image: "img/project/node.svg",
+            title: "JobFinder",
+            content:
+              "A portal for getting various internship and job opportunities posted the Training and Placement Cell of IIT Indore. You can create an account and apply various filters find the perfect job for you.",
+            github:
+              "https://github.com/pallavi-1812/Off-campus-Job-Opportunities-Portal",
+            domain: "Web Development",
           },
         ],
         "IITISoC 2020": [
