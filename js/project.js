@@ -46,7 +46,7 @@ Vue.component("project-component", {
             image: "img/project/socketio.svg",
             title: "Control-X",
             content:
-              "Control-X is responsive web application that hosts 3-4 games. Players can start a new game and invite others to join. This application also offers a leaderboard section, history, followers and many more things.",
+              "Control-X is a responsive web application that hosts 3-4 games. Players can start a new game and invite others to join. This application also offers a leaderboard section, history, followers and many more.",
             github: "https://github.com/kr-2003/IITISOC_OnlineGamesWebsite",
             domain: "Web Development",
           },
@@ -55,7 +55,7 @@ Vue.component("project-component", {
             image: "img/project/android-studio.svg",
             title: "Mess QR System",
             content:
-              "This application is made for the accessibility of meals by the students and for the management of students' data by authorities. It provides facilities like QR Scanning, history, payments, reviews etc. ",
+              "This application is made for the accessibility of meals by the students and the management of students' data by authorities. It provides facilities like QR Scanning, history, payments, reviews etc. ",
             github: "https://github.com/E13ctron/IITISoC-22-App-5-Mess_QR",
             domain: "App Development",
           },
@@ -64,7 +64,7 @@ Vue.component("project-component", {
             image: "img/project/js.svg",
             title: "Game of Life",
             content:
-              "The Game of Life is played on an infinite two-dimensional rectangular grid of cells. Each cell can either be alive or dead. User can create various patterns that based on the simple rules of the game.",
+              "The Game of Life is played on an infinite two-dimensional rectangular grid of cells. Each cell can either be alive or dead. Users can create various patterns based on the simple rules of the game.",
             github:
               "https://github.com/rashimotwani/IITISoC-22-Web-3-GameOfLife",
             domain: "Web Development",

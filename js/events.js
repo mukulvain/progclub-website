@@ -32,7 +32,7 @@ Vue.component("event-component", {
           image: "img/home/events/coming_soon.jpg",
           title: "Code Golf",
           about:
-            "A unique programming contest, shorter the code, greater are the points",
+            "A unique programming contest, shorter the code, greater are the points.",
           cls: "carousel-item",
         },
       ],
