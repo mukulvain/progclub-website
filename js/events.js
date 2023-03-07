@@ -4,7 +4,7 @@ Vue.component("event-component", {
       events: [
         {
           id: 0,
-          image: "img/home/events/DBZ.jpg",
+          image: "img/home/events/DBZ.png",
           title: "DIVIDE BY ZERO 8.0",
           about:
             "Our flagship event, a short duration programming contest held on Codeforces.",
@@ -13,7 +13,7 @@ Vue.component("event-component", {
         },
         {
           id: 1,
-          image: "img/home/events/coming_soon.jpg",
+          image: "img/home/events/Hackistica.png",
           title: "Hackistica 2.0",
           about:
             "A social coding event to build a new software under the to-be-announced broad themes. Each team can consist of a maximum of 4 people.",
@@ -21,7 +21,7 @@ Vue.component("event-component", {
         },
         {
           id: 2,
-          image: "img/home/events/coming_soon.jpg",
+          image: "img/home/events/BBCTF.png",
           title: "Capture The Flag",
           about:
             "A Capture the Flag Competition held by Byte Bandits, IIT Indore's academic CTF team. The team size for the CTF should be a maximum 4 people.",
@@ -29,10 +29,18 @@ Vue.component("event-component", {
         },
         {
           id: 3,
-          image: "img/home/events/coming_soon.jpg",
-          title: "Code Golf",
+          image: "img/home/events/CodeGolf.jpeg",
+          title: "Code Golf 7.0",
           about:
             "A unique programming contest, shorter the code, greater are the points.",
+          cls: "carousel-item",
+        },
+        {
+          id: 4,
+          image: "img/home/events/SurpriseLang.png",
+          title: "Surprise Language 6.0",
+          about:
+            "A programming contest, where the contestants are required to code in the language which is announced just 10 minutes before the event.",
           cls: "carousel-item",
         },
       ],
