@@ -188,7 +188,7 @@ Vue.component("head-component", {
 	<div class="col-lg-4 d-flex align-items-stretch" style="flex: 0 0 100%">
     <div class="card" style="width: 100%">
       <div class="profile-container">
-        <img class="card-img-top" :src="head.img" alt="Card image cap" />
+        <img class="card-img-top" :src="head.img" :alt="head.name" :title="head.name" />
       </div>
       <div
         class="card-body h-100 d-flex justify-content-center align-items-stretch align-content-stretch"
