@@ -61,7 +61,8 @@ Vue.component("event-component", {
         <img
           class="img-fluid"
           :src="event.image"
-          alt="First slide"
+          :alt="event.title"
+          :title="event.title"
           style="width: 100%"
         />
         <div class="carousel-caption">

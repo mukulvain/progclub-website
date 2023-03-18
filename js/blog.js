@@ -4,7 +4,7 @@ Vue.component("blog-component", {
     <div class="col-lg-4 d-flex align-items-stretch">
         <div class="card">
             <div class="mybeautifulclass">
-            <img :src="post.imageLink" alt="" class="card-img-top" />
+            <img :src="post.imageLink" :alt="post.title" :title="post.title" class="card-img-top" />
             </div>
             <div class="card-body" style="cursor:pointer" data-toggle="modal" :data-target="'#'+post.guid">
             <div class="card-title">

@@ -141,7 +141,7 @@ Vue.component("member-component", {
   <div class="col-lg-4 d-flex align-items-stretch" style="flex: 0 0 100%">
     <div class="card" style="width: 100%">
       <div class="profile-container">
-        <img class="card-img-top" :src="member.img" alt="Card image cap" />
+        <img class="card-img-top" :src="member.img" :alt="member.name" :title="member.name" />
       </div>
       <div
         class="card-body h-100 d-flex justify-content-center align-items-stretch align-content-stretch"
@@ -239,6 +239,5 @@ new Vue({
     heads,
   },
 });
-
 
 // <script src="https://kit.fontawesome.com/59c7aa1c56.js" crossorigin="anonymous"></script>

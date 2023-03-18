@@ -365,7 +365,8 @@ Vue.component("project-component", {
               class="card-img-top"
               style="max-height: 5em; width: unset"
               :src="project.image"
-              alt=""
+              :alt="project.title"
+              :title="project.title"
             />
           </div>
           <div class="card-body">
