@@ -2,4 +2,4 @@ User-agent: *
 Disallow: /img/
 Disallow: /project.html
 Disallow: /team.html
-Sitemap: https://route-planning.onrender.com/sitemap.xml
+Sitemap: http://progclub.iiti.ac.in/sitemap.xml
