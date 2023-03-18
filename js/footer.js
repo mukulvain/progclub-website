@@ -6,7 +6,7 @@ Vue.component("footer-component", {
       <ul class="list-inline">
         <li class="list-inline-item pb-3">
           <a target="_blank" href="https://www.youtube.com/@pclub_iiti">
-            <i class="fab fa-youtube align-middle"></i>
+            <i class="fab fa-youtube align-text-bottom"></i>
             <p class="pl-2">Our workshops</p>
           </a>
         </li>
@@ -15,13 +15,13 @@ Vue.component("footer-component", {
             target="_blank"
             href="https://www.instagram.com/pclub_iiti/"
           >
-            <i class="fab fa-instagram align-middle"></i>
+            <i class="fab fa-instagram align-text-bottom"></i>
             <p class="pl-2">Follow us on Instagram</p>
           </a>
         </li>
         <li class="list-inline-item pb-3">
           <a target="_blank" href="mailto:progclubiiti@iiti.ac.in">
-            <i class="far fa-envelope align-middle"></i>
+            <i class="far fa-envelope align-text-bottom"></i>
             <p class="pl-2">Mail us</p>
           </a>
         </li>
